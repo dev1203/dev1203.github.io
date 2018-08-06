@@ -89,7 +89,7 @@ body,html{
 
 .info{
 	margin-bottom: 10%;
-	display: none;
+	/* display: none; */
 	width: 100%;
 	background-color: #fff;	
 }
@@ -154,10 +154,6 @@ body,html{
 	padding: 0px;
 }
 
-#map{
-	width: 100%;
-    height: 100vh;
-}
 
 .info_header{
 	margin-top: 3%;
@@ -260,10 +256,7 @@ textarea{
 	width: 100%;
 	text-align: center;
 	}
-	#bottom{
-		margin-top: 20%;
-		height: 100%;
-	}
+	
 	.social div a img{
 		height: 40px;
 		margin-top: 3%;
@@ -353,4 +346,58 @@ textarea{
 	background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
 	color: white;
 	display: none;
+}
+.terminal{
+	width: 100%;
+	height: 90vh;
+	background: #043047;
+	margin: auto auto;
+	border-radius:5px;
+	-webkit-box-shadow: 0px 0px 26px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 26px 1px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 26px 1px rgba(0,0,0,0.75); 
+	overflow: hidden;
+}
+
+.options{
+	display: inline;
+}
+.options div{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+}
+#red{
+	background-color: #eb4144
+}
+#yellow{
+	background-color: #d0f308;
+}
+#green{
+	background-color: #00e676;
+}
+.terminal-command{
+	color: #ff5252;
+}
+.question{
+	padding-left: 10px;
+	color: skyblue;
+}
+.ans{
+	color: #fff;
+}
+.form-control{
+	background-color: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #fff; 
+}
+.links a{
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.links a:hover{
+	text-decoration: none;
 }
