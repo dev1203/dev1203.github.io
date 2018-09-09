@@ -116,7 +116,7 @@ body,html{
 }
 #rew{
 	height: 400px;
-	background-image:url("152748010049704833.gif");
+	background-image:url("images/152748010049704833.gif");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -265,126 +265,6 @@ textarea{
 	padding: 50px;
 	border-radius: 25px;
 }
-@media only screen and (max-width: 600px) {
-	#btn{
-		margin-top: 10%;
-		float: none;
-	}
-	#landing-page{
-	background-image: linear-gradient(180deg, #84ffb9 30%, #66c2ff 100%);
-
-	}	
-	.social div a img{
-		height: 40px;
-		margin-top: 3%;
-	}
-	#map{
-		padding-bottom: 50%;
-	}
-	.name  h1{
-		font-size: 3.0rem;
-	}
-	#finger{
-	margin-left: 0px;
-	}
-	.social-connect a{
-	margin-left: 30px;
-	}	
-	input{
-		height: 40px; 
-	}
-	textarea{
-		height: 50px;
-	}
-	#shake{
-		width: 150px;
-	}
-	.box{
-		margin-top:20px;
-	}
-	.project_card{
-		height: 500px;
-	}
-	.content_project{
-		max-height: 200px;
-	}
-}
-@media only screen and (max-width: 990px) {
-	.project_image{
-		width: 30vw;
-	}
-}
-@media only screen and (max-width: 769px) {
-	.project_card{
-		height: 500px;
-	}
-	.project_image{
-		height: auto;
-		left: 50%;
-		transform: translate(-50%,0%);
-	}
-	.modal{
-		position: fixed;
-		width: 80%;
-		height: 80%;
-		padding: 30px 10px;
-	}
-}
-
-@media screen and (min-width: 1100px) {
-	.form{
-		position: relative;
-		padding-top: 15%;
-	}
-}
-@media only screen and (max-width: 470px) {
-	.project_image{
-		display: none;
-	}
-	.project_card{
-		height: 400px;
-	}
-}
-@keyframes point{
-
-	0% {     
-	-ms-transform: rotate(-30deg); /* IE 9 */
-    -webkit-transform: rotate(-30deg); /* Safari */
-    transform: rotate(-30deg);
-    	}
-	50% { 
-	-ms-transform: rotate(-20deg); /* IE 9 */
-    -webkit-transform: rotate(-20deg); /* Safari */
-    transform: rotate(-20deg);
-		}
-	75%
-		{
-		-ms-transform: rotate(-10deg); /* IE 9 */
-   		-webkit-transform: rotate(-10deg); /* Safari */
-    	transform: rotate(-10deg);
-		}	
-	100% { 
-		-ms-transform: rotate(0deg); /* IE 9 */
-    	-webkit-transform: rotate(0deg); /* Safari */
-    	transform: rotate(0deg);
-		}
-}
-
-@keyframes shake {
-	0% { transform: translate(1px, 1px) rotate(0deg); }
-	10% { transform: translate(-1px, -2px) rotate(-1deg); }
-	20% { transform: translate(-3px, 0px) rotate(1deg); }
-	30% { transform: translate(3px, 2px) rotate(0deg); }
-	40% { transform: translate(1px, -1px) rotate(1deg); }
-	50% { transform: translate(-1px, 2px) rotate(-1deg); }
-	60% { transform: translate(-3px, 1px) rotate(0deg); }
-	70% { transform: translate(3px, 1px) rotate(-1deg); }
-	80% { transform: translate(-1px, -1px) rotate(1deg); }
-	90% { transform: translate(1px, 2px) rotate(0deg); }
-	100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
-
-
 /*---------------------Modals--------------------------------*/
 
 .links a{
@@ -412,7 +292,6 @@ textarea{
 }
 
 .project_card{
-	border-radius: 25px;
 	margin-top:30px;
 	min-height: 300px;
 	background: #f8f7fa;
@@ -435,6 +314,155 @@ textarea{
     width: 0px;  /* remove scrollbar space */
     background: transparent;  /* optional: just make scrollbar invisible */
 }
+.image_project{
+	overflow: hidden;
+}
+#music_app{
+	padding: 0px;
+	background-image: url("images/songsapp.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-origin: content-box;
+	background-position: center;
+}
+#dice_game{
+	padding: 0px;
+	background-image: url("images/dice_game.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-origin: content-box;
+	background-position: center;
+}
+#kattis{
+	padding: 0 15px;
+	background-image: url("images/kattis.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-origin: content-box;
+	background-position: center;	
+}
+#cms{
+	padding: 0px;
+	background-image: url("images/cms.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-origin: content-box;
+	background-position: center;
+}
+.row{
+	height: 100%;
+}
 /* optional: show position indicator in red */
 ::-webkit-scrollbar-thumb {
     background: #FF0000;
+	}
+	@media only screen and (max-width: 600px) {
+		#btn{
+			margin-top: 10%;
+			float: none;
+		}
+		#landing-page{
+		background-image: linear-gradient(180deg, #84ffb9 30%, #66c2ff 100%);
+	
+		}	
+		.social div a img{
+			height: 40px;
+			margin-top: 3%;
+		}
+		#map{
+			padding-bottom: 50%;
+		}
+		.name  h1{
+			font-size: 3.0rem;
+		}
+		#finger{
+		margin-left: 0px;
+		}
+		.social-connect a{
+		margin-left: 30px;
+		}	
+		input{
+			height: 40px; 
+		}
+		textarea{
+			height: 50px;
+		}
+		#shake{
+			width: 150px;
+		}
+		.box{
+			margin-top:20px;
+		}
+		.project_card{
+			height: 500px;
+		}
+		.content_project{
+			max-height: 200px;
+		}
+	}
+	@media only screen and (max-width: 769px) {
+		.project_card{
+			height: 500px;
+		}
+		.content_project{
+			max-height: 300px;
+		}
+		.modal{
+			position: fixed;
+			width: 80%;
+			height: 80%;
+			padding: 30px 10px;
+		}
+		.image_project{
+			min-height: 200px;
+		}
+	}
+	@media only screen and (max-width: 470px) {
+		.project_card{
+			height: 600px;
+		}
+		.content_project{
+			max-height: 400px;
+		}
+		.social-connect a{
+			margin: 5px;
+		}
+	}
+	@keyframes point{
+	
+		0% {     
+		-ms-transform: rotate(-30deg); /* IE 9 */
+		-webkit-transform: rotate(-30deg); /* Safari */
+		transform: rotate(-30deg);
+			}
+		50% { 
+		-ms-transform: rotate(-20deg); /* IE 9 */
+		-webkit-transform: rotate(-20deg); /* Safari */
+		transform: rotate(-20deg);
+			}
+		75%
+			{
+			-ms-transform: rotate(-10deg); /* IE 9 */
+			   -webkit-transform: rotate(-10deg); /* Safari */
+			transform: rotate(-10deg);
+			}	
+		100% { 
+			-ms-transform: rotate(0deg); /* IE 9 */
+			-webkit-transform: rotate(0deg); /* Safari */
+			transform: rotate(0deg);
+			}
+	}
+	
+	@keyframes shake {
+		0% { transform: translate(1px, 1px) rotate(0deg); }
+		10% { transform: translate(-1px, -2px) rotate(-1deg); }
+		20% { transform: translate(-3px, 0px) rotate(1deg); }
+		30% { transform: translate(3px, 2px) rotate(0deg); }
+		40% { transform: translate(1px, -1px) rotate(1deg); }
+		50% { transform: translate(-1px, 2px) rotate(-1deg); }
+		60% { transform: translate(-3px, 1px) rotate(0deg); }
+		70% { transform: translate(3px, 1px) rotate(-1deg); }
+		80% { transform: translate(-1px, -1px) rotate(1deg); }
+		90% { transform: translate(1px, 2px) rotate(0deg); }
+		100% { transform: translate(1px, -2px) rotate(-1deg); }
+	}
