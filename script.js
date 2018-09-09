@@ -6,7 +6,7 @@ $(window).on("load", function() {
 
 $("#down").on("click", function() {
     $("#down").fadeOut();
-    $(".hand").fadeOut();
+    $("#hand").fadeOut();
     $("#landing-page").slideUp(1000, function() {
         $(".info").fadeIn(500);
         $("#up").fadeIn();
@@ -28,7 +28,10 @@ $("#up").on("click", function() {
 $("#rew").on("click",function(){
     $("#modal-rew").fadeIn();
 });
+$("#rgk").on('click',()=>{
+    $("#modal-rgk").fadeIn();
 
-$("#close").on("click",function(){
-    $("#modal-rew").fadeOut();
+})
+$(".close").on("click",function(){
+    $('.modal').fadeOut();
 });
