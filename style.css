@@ -116,7 +116,7 @@ body,html{
 }
 #rew{
 	height: 400px;
-	background-image:url("images/152748010049704833.gif");
+	background-image:url("Images/152748010049704833.gif");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -319,7 +319,7 @@ textarea{
 }
 #music_app{
 	padding: 0px;
-	background-image: url("images/songsapp.png");
+	background-image: url("Images/songsapp.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-origin: content-box;
@@ -327,7 +327,7 @@ textarea{
 }
 #dice_game{
 	padding: 0px;
-	background-image: url("images/dice_game.jpg");
+	background-image: url("Images/dice_game.jpg");
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-origin: content-box;
@@ -335,7 +335,7 @@ textarea{
 }
 #kattis{
 	padding: 0 15px;
-	background-image: url("images/kattis.png");
+	background-image: url("Images/kattis.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-origin: content-box;
@@ -343,7 +343,7 @@ textarea{
 }
 #cms{
 	padding: 0px;
-	background-image: url("images/cms.png");
+	background-image: url("Images/cms.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-origin: content-box;
