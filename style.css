@@ -4,7 +4,7 @@ body,html{
 	margin:0;
 	padding: 0px;
 	font-family: 'Inconsolata', monospace;
-	overflow: scroll;
+    overflow-x: hidden;
 }
 
 #landing-page{
@@ -352,9 +352,6 @@ textarea{
 	height: 100%;
 }
 /* optional: show position indicator in red */
-::-webkit-scrollbar-thumb {
-    background: #FF0000;
-	}
 	@media only screen and (max-width: 600px) {
 		#btn{
 			margin-top: 10%;
