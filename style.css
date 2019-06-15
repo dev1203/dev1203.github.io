@@ -353,6 +353,22 @@ textarea{
 .row{
 	height: 100%;
 }
+
+#social-media-bottom{
+	position: fixed;
+	bottom: 20px;
+	text-align: right;
+	left: 50px;
+}
+
+#social-media-bottom  a{
+	margin-right: 50px;
+	color: black;
+	text-decoration: underline;
+}
+#socail-media-wrapper-div{
+	float: right;
+}
 /* optional: show position indicator in red */
 	@media only screen and (max-width: 600px) {
 		#btn{
