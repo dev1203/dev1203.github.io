@@ -22,7 +22,12 @@ import {
   QItem,
   QItemSection,
   QItemLabel,
-  QImg
+  QImg,
+  QTab,
+  QTabPanels,
+  QSeparator,
+  QTabs,
+  QCard
 } from 'quasar'
 
 Vue.use(Quasar, {
@@ -41,7 +46,12 @@ Vue.use(Quasar, {
     QItem,
     QItemSection,
     QItemLabel,
-    QImg
+    QImg,
+    QTab,
+    QTabPanels,
+    QSeparator,
+    QTabs,
+    QCard
   },
   directives: {
   },
